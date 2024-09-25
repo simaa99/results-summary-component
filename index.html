@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Results summary component</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="summary-result">
+        <!-- Result Section-->
+        <section class="result-section">
+          <span>Your Result</span>
+          <div class="mark">
+            <span>76</span>
+            <span>of 100</span>
+          </div>
+          <div class="vlaue">
+            <h2>Great</h2>
+            <p>
+              You scored higher than 65% of <br />
+              the people who have taken <br />
+              these tests.
+            </p>
+          </div>
+        </section>
+
+        <!-- Summary Section-->
+        <section class="summary-section">
+          <h3>Summary</h3>
+          <div class="mark-items-view">
+            <div class="mark-item red">
+              <div class="mark-name-view">
+                <img
+                  src="assets/images/icon-reaction.svg"
+                  alt="icon-reaction"
+                  width="20"
+                  height="20"
+                  loading="lazy"
+                />
+                <span>Reaction</span>
+              </div>
+              <p class="mark-value"><span>80</span> / 100</p>
+            </div>
+            <div class="mark-item yellow">
+              <div class="mark-name-view">
+                <img
+                  src="assets/images/icon-memory.svg"
+                  alt="icon-reaction"
+                  width="20"
+                  height="20"
+                  loading="lazy"
+                />
+                <span>Memory</span>
+              </div>
+              <p class="mark-value"><span>92</span> / 100</p>
+            </div>
+            <div class="mark-item green">
+              <div class="mark-name-view">
+                <img
+                  src="assets/images/icon-verbal.svg"
+                  alt="icon-reaction"
+                  width="20"
+                  height="20"
+                  loading="lazy"
+                />
+                <span>Verbal</span>
+              </div>
+              <p class="mark-value"><span>61</span> / 100</p>
+            </div>
+            <div class="mark-item blue">
+              <div class="mark-name-view">
+                <img
+                  src="assets/images/icon-visual.svg"
+                  alt="icon-reaction"
+                  width="20"
+                  height="20"
+                  loading="lazy"
+                />
+                <span>Visual</span>
+              </div>
+              <p class="mark-value"><span>72</span> / 100</p>
+            </div>
+          </div>
+          <button>Continue</button>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
